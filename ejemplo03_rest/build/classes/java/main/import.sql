@@ -1,0 +1,6 @@
+insert into persona(id, nombre, direccion, edad) values (1, 'kevin0', 'Ecuatoriana0', 10)
+insert into persona(id, nombre, direccion, edad) values (2, 'kevin1', 'Ecuatoriana1', 11)
+insert into persona(id, nombre, direccion, edad) values (3, 'kevin2', 'Ecuatoriana2', 12)
+insert into persona(id, nombre, direccion, edad) values (4, 'kevin3', 'Ecuatoriana3', 13)
+insert into persona(id, nombre, direccion, edad) values (5, 'kevin4', 'Ecuatoriana4', 14)
+insert into persona(id, nombre, direccion, edad) values (6, 'kevin5', 'Ecuatoriana5', 15)

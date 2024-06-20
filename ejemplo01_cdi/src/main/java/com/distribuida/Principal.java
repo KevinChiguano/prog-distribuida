@@ -1,0 +1,22 @@
+package com.distribuida;
+
+import com.distribuida.servicios.StringService;
+import jakarta.enterprise.inject.Instance;
+import jakarta.enterprise.inject.se.SeContainer;
+import jakarta.enterprise.inject.se.SeContainerInitializer;
+
+public class Principal {
+    public static void main(String[] args) {
+        SeContainer container = SeContainerInitializer
+                .newInstance()
+                .initialize();
+
+        StringService service = container.select(StringService.class)
+                .get();
+
+        String ret = service.convert("holamundo!");
+        System.out.println(ret);
+
+    }
+
+}
