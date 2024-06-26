@@ -28,4 +28,7 @@ dependencies {
 
     implementation("org.postgresql:postgresql:42.7.3")
     // implementation("com.h2database:h2:2.2.224") // Base de datos
+
+    implementation("io.quarkus:quarkus-rest-client-reactive") // REST | motor de jax-rs
+    implementation("io.quarkus:quarkus-rest-client-reactive-jackson")
 }
